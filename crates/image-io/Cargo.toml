@@ -1,0 +1,10 @@
+[package]
+name = "image-io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = { workspace = true }
+dicom = { workspace = true }
+serde = { workspace = true }
+nifti = {workspace = true }

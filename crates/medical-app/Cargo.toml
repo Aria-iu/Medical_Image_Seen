@@ -1,0 +1,9 @@
+[package]
+name = "medical-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+algorithms = { path = "../algorithms", version = "0.1.0" }
+image-io = { path = "../image-io", version = "0.1.0" }
+serde = { workspace = true }
